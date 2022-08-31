@@ -56,7 +56,7 @@ function playRound(playerSelection,computerSelection) {
 //console.log(playRound(playerSelection, computerSelection));
 
 // create five round game function
-function game() {
+/* function game() {
     // define variables to track scores
     let compWins = 0;
     let playerWins = 0;
@@ -101,4 +101,4 @@ function game() {
     }
       
 }
-    
+     */
