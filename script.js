@@ -1,5 +1,9 @@
 //create function to generate random computer input (either rock, paper, or scissors)
 let winner = "";
+const start = document.querySelector(".start")
+const rock = document.querySelector(".rock");
+const paper = document.querySelector(".paper");
+const scissors = document.querySelector(".scissors");
 
 function getComputerChoice() {
     // generate random number
@@ -49,6 +53,17 @@ function playRound(playerSelection,computerSelection) {
 
 
 
+}
+
+function playGame() {
+    //create local variables to track player and computer scores
+    let compWins = 0;
+    let playerWins = 0;
+
+    //create loop to run game rounds as long as no player has reached 5 points yet
+    while (compWins < 5 && playerWins < 5){
+        
+    }
 }
 
 //const playerSelection = "rock";
@@ -102,3 +117,17 @@ function playRound(playerSelection,computerSelection) {
       
 }
      */
+
+//create function that will transition page from start screen to rps game when start buton clicked
+
+
+start.addEventListener('click',function(e) {
+    const intro = document.querySelector(".intro");
+    const scores = document.querySelector(".scores");
+    const buttons = document.querySelector(".buttons");
+
+    intro.classList.add("hide");
+    console.log(intro.classList)
+    scores.classList.remove("hide");
+    buttons.classList.remove("hide");
+});
