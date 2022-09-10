@@ -18,17 +18,29 @@
             <button class="start">Start!</button>
         </div>
 
+        <div class="results hide">
+            <h2 class="result"></h2>
+        </div>
+
         <div class="scores hide">
+            <h1 class = "rounds">Round 1</h1>
             <h1>Rock Paper Scissors Scores</h1>
-            <h3>Player Score: 0  |  Computer Score: 0</h3>
+            <h3 class="playerScores">Player Score: 0  |  Computer Score: 0</h3>
+            <h3 class="choices"></h3>
+            <h3 class="winnerText"></h3>
         </div>
 
         <div class="buttons hide">
-            <button class="rock button">Rock</button>
-            <button class="paper button">Paper</button>
-            <button class="scissors button">Scissors</button>
+            <button class="rock button" id="rock">Rock</button>
+            <button class="paper button" id="paper">Paper</button>
+            <button class="scissors button" id="scissors">Scissors</button>
         </div>
+
+        <button class="reset hide">
+            Reset Game
+        </button>
     </div>
+
     
 </body>
 </html>

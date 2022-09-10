@@ -1,0 +1,35 @@
+[33mcommit ba2c3302b55d7ebc9d8cfc0c712ee0d2989864cf[m[33m ([m[1;36mHEAD -> [m[1;32mrps-ui[m[33m, [m[1;31morigin/rps-ui[m[33m)[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Sat Sep 3 22:52:20 2022 -0500
+
+    transition from start page to play page when start clicked
+
+[33mcommit 5bcbc6d49c3524e85ec0dcd614988c7028c9e628[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Sat Sep 3 20:39:35 2022 -0500
+
+    complete basic css designs
+
+[33mcommit 3b2c33b0c91d5f7fe3ccc291edd0be892fe382d7[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Thu Sep 1 23:20:12 2022 -0500
+
+    format basic HTML for webpage
+
+[33mcommit 84d2702c30d63e239d5242a3daa57c62e95d05e0[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Wed Aug 31 10:38:01 2022 -0500
+
+    link scripts togheter and remove five game js logic
+
+[33mcommit fcb232a4e7b66c1211f622f2399ac81220ded7ac[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Fri Aug 12 11:01:40 2022 -0500
+
+    create function to play best of 5 rounds
+
+[33mcommit de1e81079b0b802070aee9fdfb0021d36de76383[m
+Author: Paul Krucylak <paulkrucylak@gmail.com>
+Date:   Thu Aug 11 23:49:47 2022 -0500
+
+    play one game in console

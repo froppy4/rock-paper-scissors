@@ -4,7 +4,6 @@ body {
     background-size: 100% auto;
 }
 
-
 button {
     font-size: larger;
     padding: 10px;
@@ -62,6 +61,19 @@ button {
     font-size: large;
     font-weight: bold;
 }
+
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    border: 4px white solid;
+}
+
 
 .rock {
     background-color: #996633;
